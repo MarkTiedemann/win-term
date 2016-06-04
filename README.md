@@ -30,3 +30,7 @@ if (term)
 - **returns** `false` if the platform is not Windows or `stdout` is not a TTY; else returns the name of the terminal, one of: `'cmd'`, `'cmder'`, `'conemu'`, `'powershell'`, `'mingw'`, or `'cygwin'`.
 
 ## License
+
+[WTFPL](http://www.wtfpl.net/) – Do What the F*ck You Want to Public License.
+
+Made with :heart: by [@MarkTiedemann](https://twitter.com/MarkTiedemannDE).
