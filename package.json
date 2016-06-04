@@ -1,0 +1,27 @@
+{
+  "name": "win-term",
+  "version": "1.0.0",
+  "description": "Windows terminal detection.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -p -e \"require('.')\""
+  },
+  "keywords": [
+    "win",
+    "windows",
+    "term",
+    "terminal",
+    "detect",
+    "detection"
+  ],
+  "author": "Mark Tiedemann <www.marktiedemann@gmail.com>",
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkTiedemann/win-term.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarkTiedemann/win-term/issues"
+  },
+  "homepage": "https://github.com/MarkTiedemann/win-term"
+}
