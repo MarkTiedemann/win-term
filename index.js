@@ -4,7 +4,8 @@ const env = process.env
 
 /* EXOTIC TERMINALS */
 
-// Is the only term that sets CMDER_START
+// Is the only term that sets CMDER_START or CMDER_ROOT (in portable version)
+// See: https://github.com/MarkTiedemann/win-term/pull/1
 const isCmder = !!env.CMDER_START || !!env.CMDER_ROOT
 
 // Check that it's not Cmder since Cmder is based on ConEmu, too
