@@ -5,7 +5,7 @@ const env = process.env
 /* EXOTIC TERMINALS */
 
 // Is the only term that sets CMDER_START
-const isCmder = env.CMDER_START != undefined
+const isCmder = !!env.CMDER_START || !!env.CMDER_ROOT
 
 // Check that it's not Cmder since Cmder is based on ConEmu, too
 const isConEmu = !isCmder && env.ConEmuArgs != undefined
